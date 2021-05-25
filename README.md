@@ -2,5 +2,5 @@
 CSI3131 - OPERATING SYSTEMS
 
 ## Member
-Hongyi Lin
+Hongyi Lin </br>
 Rodger Retanal
