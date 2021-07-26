@@ -83,7 +83,7 @@ When the process receives fewer frames than its minimum, it will generate an exc
 ### Working Set
 * Definition: The working set of a process at a point in execution consists of the set of pages the process requires for execution without too many page faults.
 * Working set is a variable-allocation method with local scope based on the assumption of locality of references. Working set is an approximation of the program’s locality. Δ is the window size.
-    ![working-set](working-set.png)
+    ![working-set](./picture/working-set.png)
 * The working set of a process first grows when it starts executing, and then decreases and stabilizes by the principle of locality. It grows again when the process enters a new locality (transition period), then decreases after a sufficient long time spent in the new locality.
 * The following approaches are suggested by working set strategy:
     * Monitor the working set for each process
@@ -94,7 +94,7 @@ When the process receives fewer frames than its minimum, it will generate an exc
     * the optimal value for Δ is unknown and time varying
 
 ### Page-Fault Frequency
-![page-fault-freq](page-fault-freq.png)
+![page-fault-freq](./picture/page-fault-freq.png)
 * Define an upper bound U and lower bound L for page fault rates.
 * Allocate more frames to a process if fault rate > than U. </br>
     Allocate less frames if fault rate is < L.
